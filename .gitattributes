@@ -1,0 +1,7 @@
+# Force consistent LF line endings in text files
+* text=auto eol=lf
+
+# Explicitly set Python and Pipenv files to LF
+*.py text eol=lf
+Pipfile text eol=lf
+Pipfile.lock text eol=lf
